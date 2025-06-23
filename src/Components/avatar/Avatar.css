@@ -1,0 +1,23 @@
+.avatar {
+    position: fixed; 
+    overflow: hidden;
+    z-index: -2; 
+}
+
+.avatar {
+    width: 50rem;
+    bottom: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.shadow-overlay.about, 
+.shadow-overlay.skills {
+    height: 100vh; 
+    width: 100vw; 
+    display: block; 
+    position: fixed; 
+    z-index: -1;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+}

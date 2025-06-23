@@ -1,0 +1,60 @@
+#playerStats {
+    /* width: 20rem; */
+    height: 4rem; 
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    top: 3rem;
+    left: 2rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+
+}
+
+#playerStats-lines {
+    display: flex; 
+    align-items: center;
+}
+
+#playerStats-lines-thick {
+    display: block; 
+    background-color: white;
+    width: 8.5rem; 
+    height: 0.2rem;
+    border-radius: 0 10px 10px 0;
+}
+#playerStats-lines-thin {
+    display: block; 
+    background-color: lightgray;
+    width: 5.5rem; 
+    height: 0.1rem;
+}
+
+@media (max-width: 767px) {
+    #playerStats {
+        left: 50%; 
+        transform: translateX(-50%);
+        /* width: 8rem;  */
+        /* height: 2.5rem;  */
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2, h3, p {
+        font-size: 1rem;
+    }
+}
