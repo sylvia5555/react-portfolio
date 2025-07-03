@@ -8,6 +8,10 @@ body {
     padding: 0; 
 }
 
+* {
+    text-decoration: none;
+}
+
 :root {
     --purple: #540351; 
     --blue: #3627b1; 
