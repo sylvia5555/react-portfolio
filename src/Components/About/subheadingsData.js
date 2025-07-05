@@ -4,7 +4,7 @@ const subheadingsData = {
       title: "About Me",
       content: (
         <>
-          <p>I am a computer science student.</p>
+          <p>A senior FRONT-END developer, graduated from faculty of Computers and Artificial Intellignece.</p>
         </>
       ),
     },
@@ -22,7 +22,7 @@ const subheadingsData = {
       title: "2024 ITI",
       content: (
         <>
-          <p>ITI in Computer Science</p>
+          <p>ITI scholarship in WEB development</p>
         </>
       ),
     },
@@ -32,7 +32,7 @@ const subheadingsData = {
       title: "2022 web developer",
       content: (
         <>
-          <p>Web developer at XYZ company</p>
+          <p>Web developer at Freelance till now</p>
         </>
       ),
     },
@@ -40,7 +40,15 @@ const subheadingsData = {
       title: "2023 AI trainer",
       content: (
         <>
-          <p>AI trainer at ABC company</p>
+          <p>AI coding trainer at Alignerr</p>
+        </>
+      ),
+    },
+    {
+      title: "2024 coding coashing",
+      content: (
+        <>
+          <p>Online sessions for computer science students.</p>
         </>
       ),
     },

@@ -19,7 +19,7 @@
 }
 
 .skill-title {
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding-right: 4.5rem;
 }
 
@@ -97,7 +97,7 @@
 
 @media (max-width: 1100px) {
   .skill-item.activeSkill .skill-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .skill-icon {
     display: none;

@@ -9,7 +9,7 @@ const PlayStats = () => {
         <span id="playerStats-lines-thick"></span>
         <span id="playerStats-lines-thin"></span>
       </div>
-      <h2>Front-end Developer</h2>
+      <h2>Web Developer</h2>
     </div>
   );
 };
